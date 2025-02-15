@@ -18,15 +18,15 @@ composition:
               parameters:
                 title:
                   type: text
-                  value: Personalized hero
+                  value: All Star Game Starts Now!
                 $pzCrit:
                   type: $pzCrit
                   value:
                     crit:
-                      - l: launchCampaign
+                      - l: 02795685Bc664ee49c4f6987922d0a4e
                         r: 0
                         op: '>'
-                    name: 'Hero: We are launched!'
+                    name: Customers with any NBA Offer
                 description:
                   type: richText
                   value:
@@ -42,137 +42,31 @@ composition:
                           version: 1
                           children:
                             - mode: normal
-                              text: >-
-                                This content is personalized for your session
-                                since you have triggered a signal called "
+                              text: 'This is personalized based on '
                               type: text
                               style: ''
                               detail: 0
                               format: 0
                               version: 1
                             - mode: normal
-                              text: Launch
+                              text: >-
+                                NBA | Customers with any NBA Offer | Automation
+                                | Batch | AEP 
                               type: text
                               style: ''
                               detail: 0
                               format: 1
                               version: 1
                             - mode: normal
-                              text: '"  (via query string). '
+                              text: segment
                               type: text
                               style: ''
                               detail: 0
                               format: 0
                               version: 1
                           direction: ltr
-                        - type: paragraph
-                          format: ''
-                          indent: 0
-                          version: 1
-                          children:
-                            - mode: normal
-                              text: >-
-                                This is a very simple example, you can
-                                personalize based on more complex criteria and
-                                external data.
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 0
-                              version: 1
-                          direction: ltr
-                        - type: paragraph
-                          format: ''
-                          indent: 0
-                          version: 1
-                          children:
-                            - mode: normal
-                              text: 'Check out our '
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 0
-                              version: 1
-                            - link:
-                                path: https://docs.uniform.app/docs
-                                type: url
-                              type: link
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - mode: normal
-                                  text: docs
-                                  type: text
-                                  style: ''
-                                  detail: 0
-                                  format: 1
-                                  version: 1
-                              direction: ltr
-                            - mode: normal
-                              text: ' and '
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 0
-                              version: 1
-                            - link:
-                                path: >-
-                                  https://docs.uniform.app/docs/recipes/marketers/getting-started-with-simple-personalization
-                                type: url
-                              type: link
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - mode: normal
-                                  text: recipes
-                                  type: text
-                                  style: ''
-                                  detail: 0
-                                  format: 1
-                                  version: 1
-                              direction: ltr
-                            - mode: normal
-                              text: ' for more use cases.'
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 0
-                              version: 1
-                          direction: ltr
-                        - type: paragraph
-                          format: ''
-                          indent: 0
-                          version: 1
-                          children:
-                            - mode: normal
-                              text: >-
-                                To inspect the current visitor profile and
-                                simulate different state, download and install 
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 0
-                              version: 1
-                            - link:
-                                path: >-
-                                  https://chromewebstore.google.com/detail/uniform-context/dcmlokofjljnfjcknpmhjocogllfbhkg
-                                type: url
-                              type: link
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - mode: normal
-                                  text: this browser extension.
-                                  type: text
-                                  style: ''
-                                  detail: 0
-                                  format: 1
-                                  version: 1
-                              direction: ltr
-                          direction: ltr
+                          textStyle: ''
+                          textFormat: 0
                       direction: ltr
             - _id: 94b108a0-8e52-4a12-8e21-980c98d4da3d
               type: hero
@@ -227,6 +121,7 @@ composition:
                               format: 0
                               version: 1
                           direction: ltr
+                          textStyle: ''
                       direction: ltr
         parameters:
           count:
@@ -235,6 +130,6 @@ composition:
           trackingEventName:
             type: text
             value: Home Hero
-created: '2023-02-16T15:35:55.638176+00:00'
-modified: '2024-04-12T00:50:36.82462+00:00'
+created: '2025-02-15T03:04:41.443984+00:00'
+modified: '2025-02-15T03:51:17.634814+00:00'
 pattern: false

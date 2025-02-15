@@ -1,0 +1,8 @@
+id: segments
+name: Segments
+description: ''
+options:
+  - name: NBA | Customers with any NBA Offer | Automation | Batch | AEP
+    value: 02795685-bc66-4ee4-9c4f-6987922d0a4e
+  - name: Test | UUID for qwe.20@telusinternal.com | Edge | AEP
+    value: ee9432f5-6714-4e2b-a7de-62a99c012780

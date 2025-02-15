@@ -7,7 +7,6 @@ parameters:
   - id: metaTitle
     name: Meta Title
     type: text
-    helpText: ''
     typeConfig:
       required: false
     localizable: true
@@ -27,5 +26,5 @@ slugSettings:
   regularExpression: ''
   regularExpressionMessage: ''
 canBeComposition: true
-created: '2023-02-16T15:35:54.842144+00:00'
-updated: '2024-02-02T20:07:45.857304+00:00'
+created: '2025-02-15T03:04:39.356469+00:00'
+updated: '2025-02-15T03:05:52.310692+00:00'
